@@ -1,0 +1,16 @@
+body {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(http://3.bp.blogspot.com/-6EMo6vxeD8I/UZ1SHDpXk-I/AAAAAAAABi0/Xp7gA0GpxU0/s1600/Free+Animated+Wallpaper+Windows+7-768409.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
