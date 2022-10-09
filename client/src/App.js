@@ -1,12 +1,8 @@
 import React from 'react'
 import { AppBar, Typography } from '@mui/material';
-
 import VideoPlayer from './components/VideoPlayer';
 import Options from './components/Options';
 import Notifications from './components/Notifications';
-
-
-
 const App = () => {
   return (
     <div sx={{
@@ -25,7 +21,6 @@ const App = () => {
     border: '2px solid black',}} position='static' color='inherit'>
             <Typography variant='h2' align='center'>FaceTime</Typography>
         </AppBar>
-        
         <VideoPlayer/>
         <Options>
           <Notifications/>
