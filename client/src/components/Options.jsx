@@ -1,13 +1,11 @@
 import React, { useContext, useState } from 'react'
 import {Button, TextField, Grid, Typography, Container, Paper} from '@mui/material';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import {Assignment, Phone, PhoneDisabled} from '@mui/icons-material';
-
 import { SocketContext } from '../SocketContext';
-
-
+import {Assignment, Phone, PhoneDisabled} from '@mui/icons-material';
 const Options = ({ children }) => {
   //tabnine helps to autofill code language
+  
   //useContext helps us to destruct properties from one component to another
   const {me, callAccepted,name, setName, callEnded, leaveCall, callUser} = useContext(SocketContext);
   const [idToCall, setIdToCall]=useState('');
